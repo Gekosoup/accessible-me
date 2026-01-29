@@ -17,11 +17,24 @@ h6 {
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0rem;
+}
+
+header {
+  fdsj
+}
+
+header h1 {
+  text-align: center;
 }
 
 img {
   width: 100%;
+}
+
+.main-nav {
+  background-color: rgb(15, 15, 15);
+  padding: 10px;
 }
 
 .main-nav ul {
@@ -35,13 +48,14 @@ img {
 .main-nav ul li {
   flex: 1;
   text-align: center;
+  padding: 10px;
 }
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: lightcyan;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 form input,
