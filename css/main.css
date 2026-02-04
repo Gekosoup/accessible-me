@@ -83,7 +83,10 @@ img {
   text-decoration: underline;
 }
 
-/* Main content & sections: measurements */
+/* Main content & sections: measurements - 
+Important!! section {} used in css function 
+from line 86 - line 135 
+to easily select and style all sections at once! */
 
 .main-content,
 section {
@@ -134,6 +137,7 @@ section a {
   text-decoration: none; 
 }
 
+/* Form section display, margin and padding adjustment */
 form input {
   display: block;
   width: 90%;
