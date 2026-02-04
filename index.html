@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header class="site-header">
-      <h1>Jam Box Studios</h1>
+  <header class="site-header" aria-label="Website Header"> <!-- the header element should contain title, nav and hero banner if provided! -->
+    <h1>Jam Box Studios</h1>
       <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#">Home</a></li>
@@ -24,56 +24,67 @@
         </ul>
       </nav>
 
-      <img src="https://picsum.photos/1200/900" 
-      class="banner" 
-      alt="Jam Box recording studio interior">  
-    </header>
+    <img src="https://picsum.photos/1200/900" 
+    class="banner" 
+    alt="Jam Box recording studio interior">   <!-- img src link correction changed and confirmed -->
+  </header>
+
 <!-- Container: div class that creates general outline measurements for every section of the site -->
-    <div class="container">  <!-- <div class="container"> Start Point--> 
-    <main class="main-content" aria-label="Main content">
-      <h2>Welcome to Jam Box</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-    </main>
-    
-    <section class="owner" aria-label="Owner content section">
-      <h2>Meet the owner</h2>
-      <ul>
-        <li>Name: John Doe</li>
-        <li>Title: CEO</li>
-        <li>Email: johnjoe@jambox.ca</li>
-        <li>Phone: 613-000-0000</li>
-      </ul>
-      <h3>Address</h3>
-      <address>
-        Jambox Studios
-        123 Guitar Road,
-        Musicville, Danceistan
-        B3T 0L0
-      </address>
-    </section>
+    <div class="container">  <!-- <div class="container"> Start -------------------------------------
+    ------------------------------------------------------------------------------------------------> 
+      <main class="main-content" aria-label="Main content"> <!-- Main content - Start = Important! 
+                                                            would contain primary content and an introduction about the websites creator -->
+        <h2>Welcome to Jam Box</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+      </main>
+      <!-- Main content - End -->
 
-    <section class="contact-section" aria-label="Contact website owner form">
-      <h2>Contact Us</h2>
-      <form action="thanks.html">
-        <label for="name">Full Name</label>
-        <input id="name" type="text" placeholder="Full Name">
+      <section class="owner" aria-label="Owner content section"> <!-- Owner content section - Start.
+        Would contain contact information for the websites creator in unordered list form! -->
+        <h2>Meet the owner</h2>
+        <ul>
+          <li>Name: John Doe</li>
+          <li>Title: CEO</li>
+          <li>Email: johnjoe@jambox.ca</li>
+          <li>Phone: 613-000-0000</li>
+        </ul>
+        <h3>Address</h3>
+        <address>
+          Jambox Studios
+          123 Guitar Road,
+          Musicville, Danceistan
+          B3T 0L0
+        </address>
+      </section>
+  <!-- Owner content section - End. -->
 
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="Email">
+      <section class="contact-section" aria-label="Contact website owner form"> <!-- Contact website owner form - Section Start.
+        Would contain a form that the user fills with their requested information to get in touch with the website creator! -->
+        <h2>Contact Us</h2>
+        <form action="thanks.html">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Full Name">
 
-        <label for="subject">Subject</label>
-        <input id="subject" type="subject" placeholder="Subject">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email">
 
-        <label for="message">Your Message</label>
-        <textarea id="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
+          <label for="subject">Subject</label>
+          <input id="subject" type="subject" placeholder="Subject">
 
-    <footer class="site-footer" aria-label="Footer Content">
-      &copy; 2021 Jam Box Studios
-    </footer>
+          <label for="message">Your Message</label>
+          <textarea id="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <!-- Contact website owner form - Section End. -->
+
+      <footer class="site-footer" aria-label="Footer content"> <!-- Footer content - Section Start.
+        Would contain footer information and copyrights for the website creator! -->
+        &copy; 2021 Jam Box Studios
+      </footer>
+      <!-- Footer content - Section End. -->
+
   </div> <!-- <div class="container"> End Point--> 
 </body>
 </html>
