@@ -15,7 +15,7 @@
 <body>
     <header class="site-header">
       <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -23,49 +23,57 @@
           <li><a href="#">Studio</a></li>
         </ul>
       </nav>
-      <img src="https://picsum.photos/1200/900" class="banner">  
+
+      <img src="https://picsum.photos/1200/900" 
+      class="banner" 
+      alt="Jam Box recording studio interior">  
     </header>
 
     <div class="container">
     <main class="main-content">
-      <h1>Welcome to Jam Box</h1>
+      <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
     </main>
     
-    <div class="owner">
-      <h1>Meet the owner</h1>
+    <section class="owner">
+      <h2>Meet the owner</h2>
       <ul>
         <li>Name: John Doe</li>
         <li>Title: CEO</li>
         <li>Email: johnjoe@jambox.ca</li>
         <li>Phone: 613-000-0000</li>
       </ul>
-      <h1>Address</h1>
-      <p>
+      <h3>Address</h3>
+      <address>
         Jambox Studios
         123 Guitar Road,
         Musicville, Danceistan
         B3T 0L0
-      </p>
-    </div>
+      </address>
+    </section>
 
-    <div class="contact-section">
-      <h1>Contact Us</h1>
+    <section class="contact-section">
+      <h2>Contact Us</h2>
       <form action="thanks.html">
-        <label>Full Name</label>
-        <input type="text" placeholder="Full Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Subject">
-        <b>Your Message</b>
-        <textarea></textarea>
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Full Name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Email">
+
+        <label for="subject">Subject</label>
+        <input id="subject" type="subject" placeholder="Subject">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" required></textarea>
         <button type="submit">Send</button>
       </form>
-    </div>
+    </section>
 
     <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 </html>

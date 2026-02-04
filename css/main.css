@@ -26,7 +26,7 @@ img {
 }
 
 .main-nav {
-  background-color: rgb(15, 15, 15);
+  background-color:#111;
   padding: 10px;
 }
 
@@ -46,9 +46,32 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: lightcyan;
+  color: f4ffff;
   text-decoration: none;
   font-size: 1rem;
+}
+
+.main-nav a {
+  color: #f4ffff;
+  text-decoration: none;
+  padding: 0.75rem;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+}
+
+.main-nav a:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+.main-nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 form input,
