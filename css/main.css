@@ -31,12 +31,13 @@ img {
   width: 100%;
 }
 
-.main-nav {
-  background-color:#111;
+/* Nav settings */
+
+.main-nav {   /*Adds colour and padding the area surrounding list items in the main nav */
   padding: 10px;
 }
 
-.main-nav ul {
+.main-nav ul {  /*Adds flex display and removes list style for the unordered list contained in the .main-nav */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -44,13 +45,14 @@ img {
   padding: 0;
 }
 
-.main-nav ul li {
+.main-nav ul li { /*Adds text align, flex and padding to fit each individual list 
+                   item contained in the unordered list to be aligned in the center equally */
   flex: 1;
   text-align: center;
   padding: 10px;
 }
 
-.main-nav ul li a {
+.main-nav ul li a { /*Adds colour, text decoration and display: block to style the .main-nav a (button) accordingly. */
   display: block;
   color: f4ffff;
   text-decoration: none;
@@ -106,7 +108,7 @@ section h3 {
   margin-bottom: 0.5rem;
 }
 
-/* Paragraphs & list items: readability first */
+/* Paragraphs & list items */
 .main-content p,
 section p,
 section li {
@@ -115,7 +117,7 @@ section li {
   margin-bottom: 1rem;
 }
 
-/* Lists: easier scanning */
+/* Lists */
 section ul {
   padding-left: 1.5rem;
 }
@@ -124,7 +126,7 @@ section li {
   margin-bottom: 0.5rem;
 }
 
-/* Links inside content: not color-only */
+/* Links inside content */
 .main-content a,
 section a {
   color: #005fcc;
@@ -139,6 +141,13 @@ form input {
 }
 
 form textarea {
+  display: block;
+  width: 90%;
+  margin-bottom: 4rem;
+  padding: .5rem 1rem;
+}
+
+form textarea >{
   display: block;
   width: 90%;
   margin-bottom: 4rem;
