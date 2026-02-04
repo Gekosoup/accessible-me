@@ -1,17 +1,14 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: lightcyan;
+  background-color: #f4ffff; /* light tone & dark tone create high contrast */
+  color: #111; /* dark tone & light tone create high contrast */
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-weight: 400; /* avoid ultra thin fonts to increase readability */
 }
 
 .container {
