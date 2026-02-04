@@ -11,15 +11,21 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400; /* avoid ultra thin fonts to increase readability */
 }
 
+/* Container: general outline measurements for every part of the site */
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0rem;
 }
 
+/* H1 = Logo, align to center */
+
 header h1 {
   text-align: center;
 }
+
+/* img = hero banner, align to center, width 100% for full spacing on site */
 
 img {
   width: 100%;
@@ -74,7 +80,7 @@ img {
   text-decoration: underline;
 }
 
-/* Main content & sections */
+/* Main content & sections: measurements */
 
 .main-content,
 section {
@@ -89,13 +95,13 @@ section {
 /* Headings: clear hierarchy & spacing */
 .main-content h2,
 section h2 {
-  font-size: 1.75rem;
-  line-height: 1.3;
+  font-size: 1.85rem;
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
 section h3 {
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -134,7 +140,7 @@ form textarea {
 }
 
 form textarea {
-  min-height: 150px;
+  min-height: 100px;
   max-height: 150px;
   height: 150px;
   resize: none;
@@ -149,4 +155,6 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+  max-width: 1080px;
+  margin: 0 auto;
 }
