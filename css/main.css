@@ -35,6 +35,7 @@ img {
 
 .main-nav {   /*Adds colour and padding the area surrounding list items in the main nav */
   padding: 10px;
+  background-color: #000000;
 }
 
 .main-nav ul {  /*Adds flex display and removes list style for the unordered list contained in the .main-nav */
@@ -54,13 +55,13 @@ img {
 
 .main-nav ul li a { /*Adds colour, text decoration and display: block to style the .main-nav a (button) accordingly. */
   display: block;
-  color: f4ffff;
+  color:#ffffff;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .main-nav a {
-  color: #f4ffff;
+  background-color: #000000;
   text-decoration: none;
   padding: 0.75rem;
 }
@@ -174,5 +175,5 @@ form button a:focus {
   padding: 2rem 0;
   max-width: 1000px;
   min-width: auto;
-  margin: 0 auto;
+  margin: 2rem;
 }
